@@ -1,0 +1,79 @@
+GitHub repository:
+webddc
+It's short for "Web Dewey Decimal Classification," directly communicates the project's core concept, and is easy to remember and type.
+Now, here is the file system structure again, designed to live inside your webddc GitHub repository:
+webddc/
+├── 000 - Computer science, information & general works/
+│   ├── 001 - Knowledge/
+│   ├── 002 - The book/
+│   ├── 003 - Systems/
+│   ├── 004 - Data processing & computer science/
+│   ├── 005 - Computer programming, programs, data/
+│   ├── 006 - Special computer methods/
+│   ├── 010 - Bibliography/
+│   │   ├── 011 - General bibliographies/
+│   │   ├── 012 - Bibliographies of individuals/
+│   │   ├── 013 - Subject bibliographies/
+│   │   └── ...
+│   ├── 020 - Library & information sciences/
+│   │   ├── 021 - Library relationships/
+│   │   ├── 022 - Physical facilities/
+│   │   ├── 023 - Personnel management/
+│   │   └── ...
+│   ├── ... (and so on for all divisions in the 000 class)
+├── 100 - Philosophy & psychology/
+│   ├── 110 - Metaphysics/
+│   ├── 120 - Epistemology/
+│   ├── 130 - Parapsychology & occultism/
+│   ├── ...
+├── 200 - Religion/
+│   ├── 210 - Natural theology/
+│   ├── 220 - Bible/
+│   ├── 230 - Christian theology/
+│   ├── ...
+├── 300 - Social sciences/
+│   ├── 310 - Statistics/
+│   ├── 320 - Political science/
+│   ├── 330 - Economics/
+│   ├── ...
+├── 400 - Language/
+│   ├── 410 - Linguistics/
+│   ├── 420 - English & Old English/
+│   ├── 430 - Germanic languages/
+│   ├── ...
+├── 500 - Science/
+│   ├── 510 - Mathematics/
+│   ├── 520 - Astronomy/
+│   ├── 530 - Physics/
+│   ├── ...
+├── 600 - Technology/
+│   ├── 610 - Medicine & health/
+│   │   ├── 611 - Human anatomy, cytology, histology/
+│   │   ├── 612 - Human physiology/
+│   │   ├── 613 - General health/
+│   │   └── ...
+│   ├── 620 - Engineering/
+│   ├── 630 - Agriculture/
+│   ├── ...
+├── 700 - Arts & recreation/
+│   ├── 710 - Landscape & civic art/
+│   ├── 720 - Architecture/
+│   ├── 730 - Plastic arts & sculpture/
+│   ├── ...
+├── 800 - Literature/
+│   ├── 810 - American literature in English/
+│   ├── 820 - English & Old English literatures/
+│   ├── 830 - Literatures of Germanic languages/
+│   ├── ...
+└── 900 - History & geography/
+    ├── 910 - Geography & travel/
+    ├── 920 - Biography, genealogy, insignia/
+    ├── 930 - Ancient world history/
+    ├── ...
+
+
+Key Points:
+The top-level folder in your GitHub repository will be named webddc.
+Inside this repository, you'll have the ten main class folders (000 through 900).
+Within these main class folders, you can create subfolders for the divisions and sections as needed.
+The trailing / in the file structure above is just to visually indicate they are folders. When you create them in your repository, they will be directories.
